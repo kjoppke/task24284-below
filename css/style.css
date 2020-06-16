@@ -1,0 +1,53 @@
+@media all {
+    max-width: 768px;
+    .container {
+        width: 100%;
+    }
+}
+
+.main {
+    color: white;
+    font-size: large;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 300px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.one {
+    background-color: rgb(221, 36, 36);
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.area1 {
+    background-color: rgb(24, 152, 211);
+    flex-basis: 65%;
+}
+
+.area2 {
+    background-color: palevioletred;
+    flex-basis: 35%;
+}
+
+.area3 {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.footer {
+    background-color: rgb(102, 62, 197);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
